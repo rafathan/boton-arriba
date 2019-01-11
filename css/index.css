@@ -1,0 +1,20 @@
+body {
+  /* Se fuerza el tamaño del body para que la página este con scroll */
+  height: 700px;
+}
+h1, a {
+  color: rgb(255, 69, 0);
+}
+.boton-arriba, .boton-arriba-aparacer {
+  font-size: 2rem;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 1000; /* Propiedad que permite superponerse a otros elementos */
+}
+.boton-arriba {
+  display: none;
+}
+.boton-arriba-aparecer {
+  display: initial;
+}
